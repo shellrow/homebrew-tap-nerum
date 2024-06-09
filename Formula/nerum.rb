@@ -1,21 +1,21 @@
 class Nerum < Formula
   desc "Simple and Fast Network Mapper"
   homepage "https://github.com/shellrow/nerum"
-  version "1.3.0"
+  version "1.4.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/shellrow/nerum/releases/download/v1.3.0/nerum-aarch64-apple-darwin.tar.xz"
-      sha256 "aa767f9e55ecf0c1433b334b8b48d9a3c7eca06d18751efd5bf6044ed38b17de"
+      url "https://github.com/shellrow/nerum/releases/download/v1.4.0/nerum-aarch64-apple-darwin.tar.xz"
+      sha256 "2caae3190f2d32dae2ad1fda75c07b6a09f053bd47a506b73b18dd38f0467944"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/shellrow/nerum/releases/download/v1.3.0/nerum-x86_64-apple-darwin.tar.xz"
-      sha256 "3e29ab408ee48cfcc142c1060e5cf013de92d6612b803640fff697502f51bdff"
+      url "https://github.com/shellrow/nerum/releases/download/v1.4.0/nerum-x86_64-apple-darwin.tar.xz"
+      sha256 "262809cd8b69292d59bcc309b0c75518a382eb085611c82d2094152051f95267"
     end
   end
   if OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/shellrow/nerum/releases/download/v1.3.0/nerum-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "d2bc4062a05a407572ac418cf42fcaf74f0b1c35dc42b8c06150e1826a04813c"
+      url "https://github.com/shellrow/nerum/releases/download/v1.4.0/nerum-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "3069453205c827e3c9537ab0a44791e09b4f2a8e0589bf09a5c4dc54f28753e3"
     end
   end
   license "MIT"
